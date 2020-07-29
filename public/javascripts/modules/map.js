@@ -3,7 +3,7 @@ import { $ } from './bling'
 const bounds = new mapboxgl.LngLatBounds();
 
 
-function loadPlaces(map,lat=43.2,lng=-79.8){
+function loadPlaces(map,lat=19.0280,lng=-73.0265){
     axios.get(`/api/stores/near?lat=${lat}&lng=${lng}`)
     .then((res)=>{
         const places=res.data
