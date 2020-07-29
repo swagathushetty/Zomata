@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  .inner
+  h2=title
+  strong "The map service was changed from google to mapbox
+   |. the transition has resulted in some incomplete features and bugs. The search functionality might not 
+   |work as expected. Will be fixed soon 😅 "
+  .map
+    .autocomplete
+      //- input.autocomplete__input(type="text" placeholder="search for anything" name="geolocate")
+    #map
+      p loading map....  
