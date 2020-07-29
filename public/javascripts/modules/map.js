@@ -9,7 +9,7 @@ function loadPlaces(map,lat=43.2,lng=-79.8){
         const places=res.data
         console.log(places)
         if(!places.length){
-            alert('no places found') 
+            // alert('no places found') 
             return
         }
         places.forEach((place)=>{
