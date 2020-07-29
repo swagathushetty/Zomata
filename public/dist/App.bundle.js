@@ -1067,7 +1067,6 @@ function loadPlaces(map) {
         var places = res.data;
         console.log(places);
         if (!places.length) {
-            alert('no places found');
             return;
         }
         places.forEach(function (place) {
